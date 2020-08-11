@@ -21,13 +21,14 @@
                 <fieldset class="form__fieldset">
                     <div class="form__field">
                         <input class="form__input" type="text" name="name" pattern="[А-ЯЁ][А-ЯЁa-яё-]{1,20}" placeholder="Имя" required maxlength="20" minlength="2" />
+                        <span class="form__error">Недопустимый формат имени</span>
                     </div>
                     <div class="form__field">
                         <input class="form__input" type="text" name="email" pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" placeholder="E-Mail" required />
                         <span class="form__error">e-mail в формате: students-yandex@yandex.ru</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="text" name="tel" placeholder="Телефон" pattern="" minlength="" maxlength="18"  required/>
+                        <input class="form__input" type="text" name="tel" placeholder="Телефон" pattern="((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}" minlength="" maxlength="18"  required/>
                         <span class="form__error">Недопустимый формат номера</span>
                     </div>
                     <div class="form__field">
