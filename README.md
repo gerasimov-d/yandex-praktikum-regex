@@ -7,4 +7,4 @@
 ## Ссылка на проект
 https://gerasimov-d.github.io/yandex-praktikum-regex/
 ## Актуальная версия проекта
-- v.1.1.0
+- v.1.1.1
